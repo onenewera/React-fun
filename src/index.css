@@ -1,8 +1,11 @@
+html {
+  background: #e8e8e8;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   width: 100%;
   height: 100%;
-  background: #163c75;
+  background: #e8e8e8;
 }

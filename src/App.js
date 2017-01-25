@@ -7,39 +7,39 @@ class App extends Component {
       <div className="container">
         <nav className="navigation">
           <ul className="nav-items">
-            <li className="logo">Manstud</li>
+            <li className="logo">Dwilson</li>
             <li><a href="#">What's</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">Studio</a></li>
             <li><a href="#">Press</a></li>
           </ul>
         </nav>
-        <div className="circles">
-          <svg version="1.1" id="circle" x="0px" y="0px" width="800px" height="800px" viewBox="0 0 800 800" >
-            <g>
-            <circle className="st0" cx="400" cy="400" r="66.3"/>
-            <path className="st0" d="M400,466.8c-36.9,0-66.8-30-66.8-66.8c0-36.9,30-66.8,66.8-66.8c36.9,0,66.8,30,66.8,66.8
-              C466.8,436.9,436.9,466.8,400,466.8z M400,334.2c-36.3,0-65.8,29.5-65.8,65.8c0,36.3,29.5,65.8,65.8,65.8
-              c36.3,0,65.8-29.5,65.8-65.8C465.8,363.7,436.3,334.2,400,334.2z"/>
-            </g>
-            <g>
-            <path className="st0" d="M400,530.6c-72,0-130.6-58.6-130.6-130.6c0-72,58.6-130.6,130.6-130.6c72,0,130.6,58.6,130.6,130.6
-              C530.6,472,472,530.6,400,530.6z M400,270.4c-71.5,0-129.6,58.1-129.6,129.6S328.5,529.6,400,529.6S529.6,471.5,529.6,400
-              S471.5,270.4,400,270.4z"/>
-            </g>
-            <g>
-            <path className="st0" d="M400,606.4c-113.8,0-206.4-92.6-206.4-206.4S286.2,193.6,400,193.6S606.4,286.2,606.4,400
-              S513.8,606.4,400,606.4z M400,194.6c-113.3,0-205.4,92.1-205.4,205.4c0,113.3,92.1,205.4,205.4,205.4
-              c113.3,0,205.4-92.1,205.4-205.4C605.4,286.7,513.3,194.6,400,194.6z"/>
-            </g>
-            <g>
-            <path className="st0" d="M400,704.9c-81.4,0-158-31.7-215.6-89.3C126.8,558,95.1,481.4,95.1,400s31.7-158,89.3-215.6
-              C242,126.8,318.6,95.1,400,95.1s158,31.7,215.6,89.3c57.6,57.6,89.3,134.2,89.3,215.6s-31.7,158-89.3,215.6S481.4,704.9,400,704.9z
-               M400,96.1c-81.2,0-157.5,31.6-214.9,89s-89,133.7-89,214.9c0,81.2,31.6,157.5,89,214.9c57.4,57.4,133.7,89,214.9,89
-              c81.2,0,157.5-31.6,214.9-89c57.4-57.4,89-133.7,89-214.9c0-81.2-31.6-157.5-89-214.9C557.5,127.7,481.2,96.1,400,96.1z"/>
-            </g>
-          </svg>
 
+        <div id="UserAgent"></div>
+
+        <div className="content">
+          <div className="left">
+            <h4>animations &amp; stuff</h4>
+            <h1>Limitless discovery</h1>
+            <div className="divider"></div>
+            <p>Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.</p>
+            <a href="#"><button><i className="fa fa-play-circle"></i> &nbsp;Watch Video</button></a>
+          </div>
+          <div className="right">
+            <div className="mockup">
+              <div className="floor isometric"></div>
+            </div>
+            <div className="details">
+              <div className="highlight isometric"></div>
+            </div>
+            <div className="circles">
+              <svg version="1.1" id="circle" x="0px" y="0px" width="900px" height="900px" viewBox="0 0 800 800" >
+                <path className="path circle path-1" d="M400,606.4c-113.8,0-206.4-92.6-206.4-206.4S286.2,193.6,400,193.6S606.4,286.2,606.4,400
+                  S513.8,606.4,400,606.4z M400,194.6c-113.3,0-205.4,92.1-205.4,205.4c0,113.3,92.1,205.4,205.4,205.4
+                  c113.3,0,205.4-92.1,205.4-205.4C605.4,286.7,513.3,194.6,400,194.6z"/>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
     );
